@@ -34,5 +34,9 @@ Visualizations Created:
 3. Ensure dataset is ready
 4. Run the analysis
 
-pip install pandas matplotlib seaborn
-Run the cells: Execute the cells in the notebook sequentially to reproduce the analysis and visualizations.
+ ## Key Insights Preview
+ 
+1. Dinner tips tend to be higher than lunch
+2. Larger parties tip proportionally less
+3. Smokers tip slightly less on average
+4. Saturdays show highest total bills

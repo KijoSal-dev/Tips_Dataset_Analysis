@@ -3,7 +3,6 @@ This project contains an exploratory data analysis (EDA) of the 'Tips' dataset, 
 
 Dataset
 The dataset used is tips - tips (1).csv, which contains information about tips received by a waiter over a period of time. Each row represents a single dining experience and includes the following columns:
-
 total_bill: Total bill in dollars.
 tip: Tip in dollars.
 sex: Gender of the payer (Male/Female).
@@ -21,44 +20,23 @@ Checking data types and non-null counts (.info()).
 Generating descriptive statistics (.describe()).
 Identifying unique values in categorical columns (.nunique()).
 Checking for missing values (.isnull().sum()).
+
 2. Data Visualization
 Various plots have been generated using seaborn and matplotlib to explore relationships and distributions within the data:
+**Bar Plots** :Relationship between sex, total_bill, and smoker status.
+**Box Plots**: Distribution of total_bill across day with smoker status.
+**Categorical Plots (catplot)**: Relationship between tip, size, and smoker status.
+**Strip Plots**: Distribution of total_bill across time with smoker status.
 
-Bar Plots:
-
-Relationship between sex, total_bill, and smoker status.
-Box Plots:
-
-Distribution of total_bill across day with smoker status.
-Categorical Plots (catplot):
-
-Relationship between tip, size, and smoker status.
-Strip Plots:
-
-Distribution of total_bill across time with smoker status.
 Relationship between day and time with smoker status.
-Boxen Plots (boxenplot):
+**Boxen Plots (boxenplot)**: Distribution of time across size with smoker status.
+**Heatmap**: Average tip amount by time of day and smoker status.
+**Scatter Plots**: Relationship between total_bill and tip. Scatter plot with custom axis limits to focus on specific data ranges.
+**Line Plots**: Relationship between time and size.
+**Histograms**: Distribution of total_bill amounts.
+**Hexbin Plots**: Density of total_bill vs. tip amounts.
+**Box Plots**: Distribution of total_bill.
 
-Distribution of time across size with smoker status.
-Heatmap:
-
-Average tip amount by time of day and smoker status.
-Scatter Plots:
-
-Relationship between total_bill and tip.
-Scatter plot with custom axis limits to focus on specific data ranges.
-Line Plots:
-
-Relationship between time and size.
-Histograms:
-
-Distribution of total_bill amounts.
-Hexbin Plots:
-
-Density of total_bill vs. tip amounts.
-Box Plots:
-
-Distribution of total_bill.
 How to Run
 Clone the repository:
 git clone <repository_url>
